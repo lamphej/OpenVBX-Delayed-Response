@@ -1,0 +1,5 @@
+{
+    "name" : "Delayed Response",
+    "description" : "Delayed SMS Response Applet",
+    "type" : "sms"
+}

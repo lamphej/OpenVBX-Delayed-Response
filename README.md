@@ -5,6 +5,7 @@ This plugin is designed to add functionality so that your OpenVBX installation c
 ## Installation
 
 To install this plugin, simply copy the "delay-response" folder to your OpenVBX plugin folder, ie:
+
 ```
 OpenVBX/plugins/
 ```
