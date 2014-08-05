@@ -4,6 +4,18 @@ $messages = AppletInstance::getValue('messages[]');
 ?>
 
 <div class="vbx-applet delay-applet">
+    <h2>Twilio API</h2>
+    <p>Please enter your Twilio SID and Token Below</p>
+    <fieldset class="vbx-input-container">
+        <input type="text" name="sid" value="<?php echo AppletInstance::getValue("sid", "SID"); ?>" class="small"/>
+        <input type="text" name="token" value="<?php echo AppletInstance::getValue("token", "TOKEN"); ?>" class="small"/>
+    </fieldset><br />
+    <h2>Response Number</h2>
+    <p>Enter the number you'd like to send replies from.</p>
+    <fieldset class="vbx-input-container">
+        <input type="text" name="reply-from" value="<?php echo AppletInstance::getValue("reply-from"); ?>" class="small"/>
+    </fieldset>
+    <br />
 	<h2>SMS Responses</h2>
 	<table class="vbx-menu-grid options-table">
 	<thead>
