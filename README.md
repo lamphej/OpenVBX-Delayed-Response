@@ -9,3 +9,5 @@ To install this plugin, simply copy the "delay-response" folder to your OpenVBX 
 ```
 OpenVBX/plugins/
 ```
+
+And then import "incoming.sql" into your database using a method of your choice.
