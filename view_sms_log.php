@@ -1,8 +1,8 @@
 <?php
     $db_host = "localhost";
-    $db_name = "rjjm94_123";
-    $db_user = "rjjm94";
-    $db_pw = "NFEZ37UVT%5-";
+    $db_name = "";
+    $db_user = "";
+    $db_pw = "";
 
     $con = mysql_connect($db_host, $db_user, $db_pw);
     mysql_select_db($db_name, $con);
